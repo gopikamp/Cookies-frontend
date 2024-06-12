@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Searchcookie = () => {
+const Deletecookie = () => {
     return (
         <div>
             <div className="container">
@@ -12,7 +12,7 @@ const Searchcookie = () => {
                                 <input type="text" className='form-control' />
                             </div>
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                <button className="btn btn-success">Search</button>
+                                <button className="btn btn-danger">Delete</button>
                             </div>
                         </div>
                     </div>
@@ -22,4 +22,4 @@ const Searchcookie = () => {
     )
 }
 
-export default Searchcookie
+export default Deletecookie
