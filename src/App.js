@@ -3,6 +3,7 @@ import './App.css';
 import Addcookie from './components/Addcookie';
 import Searchcookie from './components/Searchcookie';
 import Deletecookie from './components/Deletecookie';
+import Viewall from './components/Viewall';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Addcookie/>
       <Searchcookie/>
       <Deletecookie/>
+      <Viewall/>
     </div>
   );
 }
